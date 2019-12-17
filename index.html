@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ronei Carlos Kunkel - Desenvolvedor front-end e outras coisas mais</title>
+	<meta name="description" content="Desenvolvedor Front-End e Python. Estudante de Sistemas de Informação na FURG - Rio Grande, RS. Ex Javeiro com bastante criatividade e persistência.">
+	<meta name="keywords" content="Desenvolvedor, Front-End, Front End, Python, Sites, Portfólio">
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="Ronei Carlos Kunkel">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="img/icon-b.png">
+</head>
+<body>
+
+	<header	class="cabecalho">
+		<a href="index.html"><h1 class="logo">Ronei Carlos Kunkel - Desenvolvedor front-end e outras coisas mais</h1></a>
+		<button class="btn-menu">
+			<i class="fa fa-bars fa-lg"></i>
+		</button>
+		<nav class="menu">
+			<a class="btn-close"><i class="fa fa-times-circle"></i></a>
+			<ul>
+				<li class="close-menu"><a href="#sobre"><i class="fa fa-info-circle"></i> Sobre</a></li>
+				<li class="close-menu"><a href="#portfolio"><i class="fa fa-code"></i> Portfólio</a></li>
+				<li class="close-menu"><a href="#fotos"><i class="fa fa-image"></i> Fotos</a></li>
+				<li class="close-menu"><a href="#contatos"><i class="fa fa-paper-plane"></i> Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="banner">
+
+		<div id="sobre" class="sobre">
+			<h2>Ronei Carlos Kunkel</h2>
+			<h3></h3>
+		</div>
+		<div class="buttons">
+			<button class="btn-cadastrar"> Portfólio <i class="fa fa-code"></i></button>
+			<button class="btn-sobre"> Contato <i class="fa fa-paper-plane"></i></button>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script>
+		$(".btn-menu").click(function(){
+			$(".menu").show();
+		});
+		$(".btn-close").click(function(){
+			$(".menu").hide();
+		});
+		$(".close-menu").click(function(){
+			$(".menu").hide();
+		});
+	</script>
+
+</body>
+</html>
