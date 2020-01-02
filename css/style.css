@@ -47,7 +47,7 @@ img {
 	width: 56px;
 	height: 56px;
 	float: left;
-	background: url(../img/icon-w.webp) center center/56px no-repeat; 
+	background: url(../img/icone-branco.webp) center center/56px no-repeat; 
 	font-size: 0;
 }
 
@@ -125,7 +125,6 @@ img {
 	width: 200px;
 	height: 200px;
 	border-radius: 999px;
-	background: url(../img/profile.webp) center left/200px no-repeat;	
 }
 
 .sobre h2 {
