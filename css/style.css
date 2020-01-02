@@ -47,7 +47,8 @@ img {
 	width: 56px;
 	height: 56px;
 	float: left;
-	background: url(../img/icon-b.png) center center/56px no-repeat; font-size: 0;
+	background: url(../img/icon-w.webp) center center/56px no-repeat; 
+	font-size: 0;
 }
 
 .btn-menu {
@@ -120,13 +121,22 @@ img {
 	width: 100%;
 }
 
+.sobre img {
+	width: 200px;
+	height: 200px;
+	border-radius: 999px;
+	background: url(../img/profile.webp) center left/200px no-repeat;	
+}
+
 .sobre h2 {
-	font-size: 2em;
+	margin-top: 10px;
+	font-size: 1.7em;
 	color: #1c3144;
 	font-weight: 700;
 }
 
 .sobre h3 {
+	margin-top: 15px;;
 	font-size: 1.5em;
 	color: #000;
 }
